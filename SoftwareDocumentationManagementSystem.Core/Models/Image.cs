@@ -1,4 +1,4 @@
-﻿namespace ProjectsStore.Core.Models;
+﻿namespace SoftwareDocumentationManagementSystem.Core.Models;
 
 public class Image
 {

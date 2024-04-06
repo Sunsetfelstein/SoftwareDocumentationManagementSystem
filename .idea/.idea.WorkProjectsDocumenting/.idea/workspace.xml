@@ -9,15 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5037fcd4-6b0b-4db6-836b-68a8b8a577bd" name="Changes" comment="Rename">
+    <list default="true" id="5037fcd4-6b0b-4db6-836b-68a8b8a577bd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WorkProjectsDocumenting/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WorkProjectsDocumenting/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectsStore.Core/Models/CodeBlock.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SoftwareDocumentationManagementSystem.Core/Models/CodeBlock.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectsStore.Core/Models/Image.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SoftwareDocumentationManagementSystem.Core/Models/Image.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectsStore.Core/Models/Project.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SoftwareDocumentationManagementSystem.Core/Models/Project.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SoftwareDocumentationManagementSystem.Core/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/SoftwareDocumentationManagementSystem.Core/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SoftwareDocumentationManagementSystem.sln" beforeDir="false" afterPath="$PROJECT_DIR$/SoftwareDocumentationManagementSystem.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SoftwareDocumentationManagementSystem/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/SoftwareDocumentationManagementSystem/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WorkProjectsDocumenting/Controllers/ThoughtsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SoftwareDocumentationManagementSystem/Controllers/ThoughtsController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WorkProjectsDocumenting/Controllers/WeatherForecastController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SoftwareDocumentationManagementSystem/Controllers/WeatherForecastController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WorkProjectsDocumenting/WeatherForecast.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SoftwareDocumentationManagementSystem/WeatherForecast.cs" afterDir="false" />
     </list>
@@ -28,16 +23,17 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/0cc712b3c51188485dd52dac67e1d13a879a12ad92b1ea0f28e9cc4a03393a/ControllerEndpointRouteBuilderExtensions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/SoftwareDocumentationManagementSystem.Core/Class1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SoftwareDocumentationManagementSystem.Core/Models/CodeBlock.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SoftwareDocumentationManagementSystem.Core/Models/Image.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/SoftwareDocumentationManagementSystem.Core/Models/Project.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/SoftwareDocumentationManagementSystem/Controllers/ThoughtsController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SoftwareDocumentationManagementSystem.Core/Models/Software.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SoftwareDocumentationManagementSystem/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SoftwareDocumentationManagementSystem/appsettings.Development.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SoftwareDocumentationManagementSystem/appsettings.json" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -126,7 +122,7 @@
       <workItem from="1702229934315" duration="218000" />
       <workItem from="1702230169984" duration="3210000" />
       <workItem from="1712345475441" duration="3537000" />
-      <workItem from="1712432494022" duration="1607000" />
+      <workItem from="1712432494022" duration="2368000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -144,7 +140,31 @@
       <option name="project" value="LOCAL" />
       <updated>1712433123611</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added project for working with data base">
+      <option name="closed" value="true" />
+      <created>1712434263728</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1712434263728</updated>
+    </task>
+    <task id="LOCAL-00004" summary="An unnecessary class has been deleted">
+      <option name="closed" value="true" />
+      <created>1712434345665</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1712434345665</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Rename class Project.cs to Software.cs">
+      <option name="closed" value="true" />
+      <created>1712434405400</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1712434405400</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,6 +175,9 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="initial commit" />
     <MESSAGE value="Rename" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rename" />
+    <MESSAGE value="Added project for working with data base" />
+    <MESSAGE value="An unnecessary class has been deleted" />
+    <MESSAGE value="Rename class Project.cs to Software.cs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rename class Project.cs to Software.cs" />
   </component>
 </project>

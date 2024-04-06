@@ -1,4 +1,4 @@
-namespace WorkProjectsDocumenting;
+namespace SoftwareDocumentationManagementSystem;
 
 public class WeatherForecast
 {
