@@ -2,16 +2,18 @@
 
 public class CodeBlockEntity
 {
-    public CodeBlockEntity(Guid id, Guid projectId, string code, string description)
+    public CodeBlockEntity(Guid id, Guid softwareId, SoftwareEntity software, string code, string description)
     {
         Id = id;
         Code = code;
+        Software = software;
         Description = description;
-        ProjectId = projectId;
+        SoftwareId = softwareId;
     }
 
-    public Guid Id { get; private set; }
-    public Guid ProjectId { get; private set; }
+    public Guid Id { get; set; }
+    public Guid SoftwareId { get; set; }
+    public SoftwareEntity Software { get; set; }
     public string Code { get; set; }
     public string Description { get; set; }
 }

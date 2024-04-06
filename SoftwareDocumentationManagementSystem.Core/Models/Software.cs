@@ -21,6 +21,6 @@ public class Software
     public string GitUrl { get; set; }
     public string Text { get; set; }
     
-    public List<Image> Images { get; set; } = new List<Image>();
-    public List<CodeBlock> CodeBlocks { get; set; } = new List<CodeBlock>();
+    public List<Image> Images { get; set; } = new();
+    public List<CodeBlock> CodeBlocks { get; set; } = new();
 }
