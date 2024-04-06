@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftwareDocumentationManage
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftwareDocumentationManagementSystem.Core", "SoftwareDocumentationManagementSystem.Core\SoftwareDocumentationManagementSystem.Core.csproj", "{579DEBAB-2C48-4E0E-BCB3-D96FE8EF75A5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftwareDocumentationManagementSystem.DataAccess", "SoftwareDocumentationManagementSystem.DataAccess\SoftwareDocumentationManagementSystem.DataAccess.csproj", "{BC3A4C1B-33E8-4020-A4E9-2E8EFABA7039}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{579DEBAB-2C48-4E0E-BCB3-D96FE8EF75A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{579DEBAB-2C48-4E0E-BCB3-D96FE8EF75A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{579DEBAB-2C48-4E0E-BCB3-D96FE8EF75A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC3A4C1B-33E8-4020-A4E9-2E8EFABA7039}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC3A4C1B-33E8-4020-A4E9-2E8EFABA7039}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC3A4C1B-33E8-4020-A4E9-2E8EFABA7039}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC3A4C1B-33E8-4020-A4E9-2E8EFABA7039}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
