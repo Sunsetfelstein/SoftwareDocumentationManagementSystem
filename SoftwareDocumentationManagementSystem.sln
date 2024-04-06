@@ -1,8 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkProjectsDocumenting", "WorkProjectsDocumenting\WorkProjectsDocumenting.csproj", "{88E6E196-D553-4497-860F-108D3CF99F2E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftwareDocumentationManagementSystem", "SoftwareDocumentationManagementSystem\SoftwareDocumentationManagementSystem.csproj", "{88E6E196-D553-4497-860F-108D3CF99F2E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectsStore.Core", "ProjectsStore.Core\ProjectsStore.Core.csproj", "{579DEBAB-2C48-4E0E-BCB3-D96FE8EF75A5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftwareDocumentationManagementSystem.Core", "SoftwareDocumentationManagementSystem.Core\SoftwareDocumentationManagementSystem.Core.csproj", "{579DEBAB-2C48-4E0E-BCB3-D96FE8EF75A5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

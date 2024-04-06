@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8aaS826+zLyK1t0N7nU6UGKX7iCo7HGM3wYr8EOILWncnnaJ8cVrWvxQm1jJJckcywoCSZJ+NVsJUYOX2/20Kw==",
+  "dgSpecHash": "Jm/T3FwtOaKvZGccTGvRJbYizdLDmZNeXUvOuDSRWRMFmw5hR9XDw59m1hvqM8E/WD7imtOxvCQbPWkJ8mJGbQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\assre\\RiderProjects\\WorkProjectsDocumenting\\WorkProjectsDocumenting\\WorkProjectsDocumenting.csproj",
+  "projectFilePath": "C:\\Users\\assre\\RiderProjects\\WorkProjectsDocumenting\\SoftwareDocumentationManagementSystem\\SoftwareDocumentationManagementSystem.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\assre\\.nuget\\packages\\microsoft.aspnetcore.authentication.negotiate\\7.0.9\\microsoft.aspnetcore.authentication.negotiate.7.0.9.nupkg.sha512",
     "C:\\Users\\assre\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions\\7.0.9\\microsoft.aspnetcore.connections.abstractions.7.0.9.nupkg.sha512",

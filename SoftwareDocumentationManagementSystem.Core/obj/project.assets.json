@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\assre\\RiderProjects\\WorkProjectsDocumenting\\ProjectsStore.Core\\ProjectsStore.Core.csproj",
-      "projectName": "ProjectsStore.Core",
-      "projectPath": "C:\\Users\\assre\\RiderProjects\\WorkProjectsDocumenting\\ProjectsStore.Core\\ProjectsStore.Core.csproj",
+      "projectUniqueName": "C:\\Users\\assre\\RiderProjects\\WorkProjectsDocumenting\\SoftwareDocumentationManagementSystem.Core\\SoftwareDocumentationManagementSystem.Core.csproj",
+      "projectName": "SoftwareDocumentationManagementSystem.Core",
+      "projectPath": "C:\\Users\\assre\\RiderProjects\\WorkProjectsDocumenting\\SoftwareDocumentationManagementSystem.Core\\SoftwareDocumentationManagementSystem.Core.csproj",
       "packagesPath": "C:\\Users\\assre\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\assre\\RiderProjects\\WorkProjectsDocumenting\\ProjectsStore.Core\\obj\\",
+      "outputPath": "C:\\Users\\assre\\RiderProjects\\WorkProjectsDocumenting\\SoftwareDocumentationManagementSystem.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\assre\\AppData\\Roaming\\NuGet\\NuGet.Config"

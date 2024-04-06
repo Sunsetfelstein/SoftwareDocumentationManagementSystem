@@ -1009,11 +1009,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\assre\\RiderProjects\\WorkProjectsDocumenting\\WorkProjectsDocumenting\\WorkProjectsDocumenting.csproj",
-      "projectName": "WorkProjectsDocumenting",
-      "projectPath": "C:\\Users\\assre\\RiderProjects\\WorkProjectsDocumenting\\WorkProjectsDocumenting\\WorkProjectsDocumenting.csproj",
+      "projectUniqueName": "C:\\Users\\assre\\RiderProjects\\WorkProjectsDocumenting\\SoftwareDocumentationManagementSystem\\SoftwareDocumentationManagementSystem.csproj",
+      "projectName": "SoftwareDocumentationManagementSystem",
+      "projectPath": "C:\\Users\\assre\\RiderProjects\\WorkProjectsDocumenting\\SoftwareDocumentationManagementSystem\\SoftwareDocumentationManagementSystem.csproj",
       "packagesPath": "C:\\Users\\assre\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\assre\\RiderProjects\\WorkProjectsDocumenting\\WorkProjectsDocumenting\\obj\\",
+      "outputPath": "C:\\Users\\assre\\RiderProjects\\WorkProjectsDocumenting\\SoftwareDocumentationManagementSystem\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\assre\\AppData\\Roaming\\NuGet\\NuGet.Config"
