@@ -1,8 +1,8 @@
-﻿namespace ProjectsStore.Core.Models;
+﻿namespace SoftwareDocumentationManagementSystem.Core.Models;
 
-public class Project
+public class Software
 {
-    public Project(Guid id, Guid authorId, bool isPublic, string title, string description, string gitUrl, string text)
+    public Software(Guid id, Guid authorId, bool isPublic, string title, string description, string gitUrl, string text)
     {
         Id = id;
         AuthorId = authorId;
