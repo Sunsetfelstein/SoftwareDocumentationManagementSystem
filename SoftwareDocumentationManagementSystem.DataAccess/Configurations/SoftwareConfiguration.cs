@@ -21,5 +21,13 @@ public class SoftwareConfiguration : IEntityTypeConfiguration<SoftwareEntity>
             .WithOne(x => x.Software)
             .HasForeignKey(x => x.SoftwareId)
             .IsRequired();
+        builder.HasOne<CompanyEntity>(x => x.Company)
+            .WithMany(x => x.Softwares)
+            .HasForeignKey(x => x.CompanyId)
+            .IsRequired();
+        builder.HasOne<UserEntity>(x => x.Author)
+            .WithMany(x => x.Softwares)
+            .HasForeignKey(x => x.AuthorId)
+            .IsRequired();
     }
 }

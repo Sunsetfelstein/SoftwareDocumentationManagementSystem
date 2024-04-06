@@ -2,18 +2,22 @@
 
 public class Image
 {
-    public Image(Guid id, Guid projectId, Software software, string description, byte[] imageData)
+    public Image(Guid id, Guid softwareId, Software software, Guid authorId, User author, string description, byte[] imageData)
     {
         Id = id;
-        ProjectId = projectId;
+        SoftwareId = softwareId;
         Software = software;
+        AuthorId = authorId;
+        Author = author;
         Description = description;
         ImageData = imageData;
     }
 
     public Guid Id { get; }
-    public Guid ProjectId { get; }
+    public Guid SoftwareId { get; }
     public Software Software { get;}
-    public string Description { get; set; }
-    public byte[] ImageData { get; private set; }
+    public User Author { get; }
+    public Guid AuthorId { get; }
+    public string Description { get; }
+    public byte[] ImageData { get; }
 }

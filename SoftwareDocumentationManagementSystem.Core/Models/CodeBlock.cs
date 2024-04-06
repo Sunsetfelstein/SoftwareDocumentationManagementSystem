@@ -2,19 +2,25 @@
 
 public class CodeBlock
 {
-    public CodeBlock(Guid id, Guid projectId, Software software, string code, string description)
+    public CodeBlock(Guid id, Guid projectId, Guid authorId, User author, Software software, Guid softwareId, string code, string description)
     {
         Id = id;
         Code = code;
         Description = description;
         Software = software;
+        SoftwareId = softwareId;
         ProjectId = projectId;
+        Author = author;
+        AuthorId = authorId;
     }
 
     public Guid Id { get; }
     public Guid ProjectId { get; }
-    public Software Software { get; set; }
-    public string Code { get; set; }
-    public string Description { get; set; }
+    public Guid SoftwareId { get; }
+    public Software Software { get; }
+    public User Author { get; }
+    public Guid AuthorId { get; }
+    public string Code { get; }
+    public string Description { get; }
 
 }

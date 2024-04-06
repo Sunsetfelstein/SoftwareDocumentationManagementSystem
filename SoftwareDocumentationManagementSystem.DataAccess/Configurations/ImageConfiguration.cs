@@ -15,5 +15,9 @@ public class ImageConfiguration : IEntityTypeConfiguration<ImageEntity>
             .WithMany(x => x.Images)
             .HasForeignKey(x => x.SoftwareId)
             .IsRequired();
+        builder.HasOne<UserEntity>(x => x.Author)
+            .WithMany(x => x.Images)
+            .HasForeignKey(x => x.AuthorId)
+            .IsRequired();
     }
 }

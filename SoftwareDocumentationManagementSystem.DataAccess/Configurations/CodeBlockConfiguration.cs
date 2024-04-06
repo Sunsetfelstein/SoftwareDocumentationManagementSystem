@@ -15,5 +15,9 @@ public class CodeBlockConfiguration : IEntityTypeConfiguration<CodeBlockEntity>
             .WithMany(x => x.CodeBlocks)
             .HasForeignKey(x => x.SoftwareId)
             .IsRequired();
+        builder.HasOne<UserEntity>(x => x.Author)
+            .WithMany(x => x.CodeBlocks)
+            .HasForeignKey(x => x.AuthorId)
+            .IsRequired();
     }
 }
