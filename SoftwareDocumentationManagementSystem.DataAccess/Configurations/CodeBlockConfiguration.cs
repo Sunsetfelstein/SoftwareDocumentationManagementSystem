@@ -4,15 +4,15 @@ using SoftwareDocumentationManagementSystem.DataAccess.Entity;
 
 namespace SoftwareDocumentationManagementSystem.DataAccess.Configurations;
 
-public class ImageConfiguration : IEntityTypeConfiguration<ImageEntity>
+public class CodeBlockConfiguration : IEntityTypeConfiguration<CodeBlockEntity>
 {
-    public void Configure(EntityTypeBuilder<ImageEntity> builder)
+    public void Configure(EntityTypeBuilder<CodeBlockEntity> builder)
     {
         builder.HasKey(x => x.Id);
+        builder.Property(x => x.Code).IsRequired();
         builder.Property(x => x.Description).IsRequired();
-        builder.Property(x => x.ImageData).IsRequired();
         builder.HasOne<SoftwareEntity>(x => x.Software)
-            .WithMany(x => x.Images)
+            .WithMany(x => x.CodeBlocks)
             .HasForeignKey(x => x.SoftwareId)
             .IsRequired();
     }

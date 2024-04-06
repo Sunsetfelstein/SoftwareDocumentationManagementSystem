@@ -15,9 +15,11 @@ public class SoftwareConfiguration : IEntityTypeConfiguration<SoftwareEntity>
         builder.Property(x => x.GitUrl).IsRequired();
         builder.HasMany<CodeBlockEntity>(x => x.CodeBlocks)
             .WithOne(x => x.Software)
-            .HasForeignKey(x => x.SoftwareId).IsRequired();
+            .HasForeignKey(x => x.SoftwareId)
+            .IsRequired();
         builder.HasMany<ImageEntity>(x => x.Images)
             .WithOne(x => x.Software)
-            .HasForeignKey(x => x.SoftwareId).IsRequired();
+            .HasForeignKey(x => x.SoftwareId)
+            .IsRequired();
     }
 }
