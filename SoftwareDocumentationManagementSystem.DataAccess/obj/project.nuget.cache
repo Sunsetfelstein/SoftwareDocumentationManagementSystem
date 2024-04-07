@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "trweJoDpxx8HkyPCfb1dqhaWuKID8JPDhhzemq7rwJewbx4JZXduNaKTjuiQXRUXq3umfHfS4OxovPdrvezZUw==",
+  "dgSpecHash": "8T9dLjFvL8C8uXHMQGIVKqiznHMuA023oH1NOvIEaiu1WmKYC/AJ5YhcTGSCtElJDUhwt688YogBfW9mqnrWRw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\assre\\RiderProjects\\WorkProjectsDocumenting\\SoftwareDocumentationManagementSystem.DataAccess\\SoftwareDocumentationManagementSystem.DataAccess.csproj",
+  "projectFilePath": "C:\\Users\\assre\\RiderProjects\\SoftwareDocumentationManagementSystem\\SoftwareDocumentationManagementSystem.DataAccess\\SoftwareDocumentationManagementSystem.DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\assre\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.17\\microsoft.entityframeworkcore.7.0.17.nupkg.sha512",
     "C:\\Users\\assre\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.17\\microsoft.entityframeworkcore.abstractions.7.0.17.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\assre\\RiderProjects\\WorkProjectsDocumenting\\SoftwareDocumentationManagementSystem.DataAccess\\SoftwareDocumentationManagementSystem.DataAccess.csproj": {}
+    "C:\\Users\\assre\\RiderProjects\\SoftwareDocumentationManagementSystem\\SoftwareDocumentationManagementSystem.DataAccess\\SoftwareDocumentationManagementSystem.DataAccess.csproj": {}
   },
   "projects": {
-    "C:\\Users\\assre\\RiderProjects\\WorkProjectsDocumenting\\SoftwareDocumentationManagementSystem.DataAccess\\SoftwareDocumentationManagementSystem.DataAccess.csproj": {
+    "C:\\Users\\assre\\RiderProjects\\SoftwareDocumentationManagementSystem\\SoftwareDocumentationManagementSystem.DataAccess\\SoftwareDocumentationManagementSystem.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\assre\\RiderProjects\\WorkProjectsDocumenting\\SoftwareDocumentationManagementSystem.DataAccess\\SoftwareDocumentationManagementSystem.DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\assre\\RiderProjects\\SoftwareDocumentationManagementSystem\\SoftwareDocumentationManagementSystem.DataAccess\\SoftwareDocumentationManagementSystem.DataAccess.csproj",
         "projectName": "SoftwareDocumentationManagementSystem.DataAccess",
-        "projectPath": "C:\\Users\\assre\\RiderProjects\\WorkProjectsDocumenting\\SoftwareDocumentationManagementSystem.DataAccess\\SoftwareDocumentationManagementSystem.DataAccess.csproj",
+        "projectPath": "C:\\Users\\assre\\RiderProjects\\SoftwareDocumentationManagementSystem\\SoftwareDocumentationManagementSystem.DataAccess\\SoftwareDocumentationManagementSystem.DataAccess.csproj",
         "packagesPath": "C:\\Users\\assre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\assre\\RiderProjects\\WorkProjectsDocumenting\\SoftwareDocumentationManagementSystem.DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\assre\\RiderProjects\\SoftwareDocumentationManagementSystem\\SoftwareDocumentationManagementSystem.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\assre\\AppData\\Roaming\\NuGet\\NuGet.Config"
