@@ -1,8 +1,10 @@
-﻿namespace SoftwareDocumentationManagementSystem.Core.Models;
+﻿using CSharpFunctionalExtensions;
+
+namespace SoftwareDocumentationManagementSystem.Core.Models;
 
 public class User
 {
-    public User(Guid id, string firstName, string secondName, string phoneNumber, string gitUrl, Position position, Guid positionId)
+    private User(Guid id, string firstName, string secondName, string phoneNumber, string gitUrl, Position position, Guid positionId)
     {
         Id = id;
         FirstName = firstName;
@@ -22,4 +24,11 @@ public class User
     public List<Software> Softwares { get; } = new();
     public List<Image> Images { get; } = new();
     public List<CodeBlock> CodeBlocks { get; } = new();
+    
+    public static Result<User> Create(Guid id, string firstName, string secondName, string phoneNumber, string gitUrl, Position position, Guid positionId)
+    {
+        var user = new User(id, firstName, secondName, phoneNumber, gitUrl, position, positionId);
+
+        return Result.Success(user);
+    }
 }

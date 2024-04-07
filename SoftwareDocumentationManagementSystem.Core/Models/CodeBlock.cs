@@ -1,4 +1,6 @@
-﻿namespace SoftwareDocumentationManagementSystem.Core.Models;
+﻿using CSharpFunctionalExtensions;
+
+namespace SoftwareDocumentationManagementSystem.Core.Models;
 
 public class CodeBlock
 {
@@ -23,4 +25,11 @@ public class CodeBlock
     public string Code { get; }
     public string Description { get; }
 
+    public Result<CodeBlock> Create(Guid id, Guid projectId, Guid authorId, User author, Software software,
+        Guid softwareId, string code, string description)
+    {
+        var codeBlock = new CodeBlock(id, projectId, authorId, author, software, softwareId, code, description);
+
+        return Result.Success(codeBlock);
+    }
 }

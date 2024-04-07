@@ -1,8 +1,10 @@
-﻿namespace SoftwareDocumentationManagementSystem.Core.Models;
+﻿using CSharpFunctionalExtensions;
+
+namespace SoftwareDocumentationManagementSystem.Core.Models;
 
 public class Image
 {
-    public Image(Guid id, Guid softwareId, Software software, Guid authorId, User author, string description, byte[] imageData)
+    private Image(Guid id, Guid softwareId, Software software, Guid authorId, User author, string description, byte[] imageData)
     {
         Id = id;
         SoftwareId = softwareId;
@@ -20,4 +22,11 @@ public class Image
     public Guid AuthorId { get; }
     public string Description { get; }
     public byte[] ImageData { get; }
+    
+    public static Result<Image> Create(Guid id, Guid softwareId, Software software, Guid authorId, User author, string description, byte[] imageData)
+    {
+        var image = new Image(id, softwareId, software, authorId, author, description, imageData);
+
+        return Result.Success(image);
+    }
 }

@@ -2,7 +2,7 @@
 
 public class SoftwareEntity
 {
-    public SoftwareEntity(Guid id, Guid authorId, UserEntity author, Guid companyId, CompanyEntity company, bool isPublic, string title, string description, string gitUrl, string text)
+    public SoftwareEntity(Guid id, Guid authorId, UserEntity author, Guid companyId, CompanyEntity company, bool isPublic, string title, string description, string gitUrl)
     {
         Id = id;
         Author = author;
@@ -13,7 +13,6 @@ public class SoftwareEntity
         Title = title;
         Description = description;
         GitUrl = gitUrl;
-        Text = text;
     }
 
     public Guid Id { get; set; }
@@ -25,7 +24,6 @@ public class SoftwareEntity
     public string Title { get; set; }
     public string Description { get; set; }
     public string GitUrl { get; set; }
-    public string Text { get; set; }
     
     public List<ImageEntity> Images { get; set; } = new();
     public List<CodeBlockEntity> CodeBlocks { get; set; } = new();

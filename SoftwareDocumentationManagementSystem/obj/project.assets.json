@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     "net7.0": {
+      "CSharpFunctionalExtensions/2.41.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CSharpFunctionalExtensions.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CSharpFunctionalExtensions.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Microsoft.AspNetCore.Authentication.Negotiate/7.0.9": {
         "type": "package",
         "dependencies": {
@@ -314,10 +327,52 @@
         "build": {
           "buildTransitive/net6.0/_._": {}
         }
+      },
+      "SoftwareDocumentationManagementSystem.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "CSharpFunctionalExtensions": "2.41.0"
+        },
+        "compile": {
+          "bin/placeholder/SoftwareDocumentationManagementSystem.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SoftwareDocumentationManagementSystem.Core.dll": {}
+        }
       }
     }
   },
   "libraries": {
+    "CSharpFunctionalExtensions/2.41.0": {
+      "sha512": "g9uR6a/tfnstew4FHjZost/NxgJ6gnZKCI2EuNC5MOGx0L6ntrReTegO4LHfpXCy9kREbXfrgHW8DI6QV+YbDQ==",
+      "type": "package",
+      "path": "csharpfunctionalextensions/2.41.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "csharpfunctionalextensions.2.41.0.nupkg.sha512",
+        "csharpfunctionalextensions.nuspec",
+        "lib/net40/CSharpFunctionalExtensions.dll",
+        "lib/net40/CSharpFunctionalExtensions.pdb",
+        "lib/net40/CSharpFunctionalExtensions.xml",
+        "lib/net45/CSharpFunctionalExtensions.dll",
+        "lib/net45/CSharpFunctionalExtensions.pdb",
+        "lib/net45/CSharpFunctionalExtensions.xml",
+        "lib/net461/CSharpFunctionalExtensions.dll",
+        "lib/net461/CSharpFunctionalExtensions.pdb",
+        "lib/net461/CSharpFunctionalExtensions.xml",
+        "lib/net5.0/CSharpFunctionalExtensions.dll",
+        "lib/net5.0/CSharpFunctionalExtensions.pdb",
+        "lib/net5.0/CSharpFunctionalExtensions.xml",
+        "lib/net6.0/CSharpFunctionalExtensions.dll",
+        "lib/net6.0/CSharpFunctionalExtensions.pdb",
+        "lib/net6.0/CSharpFunctionalExtensions.xml",
+        "lib/netstandard2.0/CSharpFunctionalExtensions.dll",
+        "lib/netstandard2.0/CSharpFunctionalExtensions.pdb",
+        "lib/netstandard2.0/CSharpFunctionalExtensions.xml"
+      ]
+    },
     "Microsoft.AspNetCore.Authentication.Negotiate/7.0.9": {
       "sha512": "/Sh+zGJAgG5MwQcHATWrKsFn4IY5psaX2c1QtKwSNPlEuTjZIZe3aVjEWMHT/ou2jkQ12S2kjOzaW5nMeg/cBA==",
       "type": "package",
@@ -994,12 +1049,18 @@
         "system.io.pipelines.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "SoftwareDocumentationManagementSystem.Core/1.0.0": {
+      "type": "project",
+      "path": "../SoftwareDocumentationManagementSystem.Core/SoftwareDocumentationManagementSystem.Core.csproj",
+      "msbuildProject": "../SoftwareDocumentationManagementSystem.Core/SoftwareDocumentationManagementSystem.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
       "Microsoft.AspNetCore.Authentication.Negotiate >= 7.0.9",
       "Microsoft.AspNetCore.OpenApi >= 7.0.9",
+      "SoftwareDocumentationManagementSystem.Core >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.5.0"
     ]
   },
@@ -1010,7 +1071,7 @@
     "version": "1.0.0",
     "restore": {
       "projectUniqueName": "C:\\Users\\assre\\RiderProjects\\WorkProjectsDocumenting\\SoftwareDocumentationManagementSystem\\SoftwareDocumentationManagementSystem.csproj",
-      "projectName": "SoftwareDocumentationManagementSystem",
+      "projectName": "SoftwareDocumentationManagementSystem.API",
       "projectPath": "C:\\Users\\assre\\RiderProjects\\WorkProjectsDocumenting\\SoftwareDocumentationManagementSystem\\SoftwareDocumentationManagementSystem.csproj",
       "packagesPath": "C:\\Users\\assre\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\assre\\RiderProjects\\WorkProjectsDocumenting\\SoftwareDocumentationManagementSystem\\obj\\",
@@ -1028,7 +1089,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\assre\\RiderProjects\\WorkProjectsDocumenting\\SoftwareDocumentationManagementSystem.Core\\SoftwareDocumentationManagementSystem.Core.csproj": {
+              "projectPath": "C:\\Users\\assre\\RiderProjects\\WorkProjectsDocumenting\\SoftwareDocumentationManagementSystem.Core\\SoftwareDocumentationManagementSystem.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

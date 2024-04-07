@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "MRRn7A24WFaGWuLHfAKhuqGQQrrHOOfgm6JizRlR82a/z0zmxysoyltNdHH39LIT8C4MkhVUcKwwdeKn3gHqdw==",
+  "dgSpecHash": "/O/DIU4MtOEInfnTuZcZ0zl7dplGEJ4UUs26GGQMjYGUJyDhFtpNSkm8OyDdknwhS6as77UDKG2NKfYWjbLERQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\assre\\RiderProjects\\WorkProjectsDocumenting\\SoftwareDocumentationManagementSystem.Core\\SoftwareDocumentationManagementSystem.Core.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\assre\\.nuget\\packages\\csharpfunctionalextensions\\2.41.0\\csharpfunctionalextensions.2.41.0.nupkg.sha512"
+  ],
   "logs": []
 }
