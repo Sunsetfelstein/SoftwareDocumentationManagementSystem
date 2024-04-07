@@ -1,0 +1,12 @@
+C:\Users\assre\RiderProjects\WorkProjectsDocumenting\SoftwareDocumentationManagementSystem.Core\bin\Debug\net7.0\SoftwareDocumentationManagementSystem.Core.deps.json
+C:\Users\assre\RiderProjects\WorkProjectsDocumenting\SoftwareDocumentationManagementSystem.Core\bin\Debug\net7.0\SoftwareDocumentationManagementSystem.Core.dll
+C:\Users\assre\RiderProjects\WorkProjectsDocumenting\SoftwareDocumentationManagementSystem.Core\bin\Debug\net7.0\SoftwareDocumentationManagementSystem.Core.pdb
+C:\Users\assre\RiderProjects\WorkProjectsDocumenting\SoftwareDocumentationManagementSystem.Core\obj\Debug\net7.0\SoftwareDocumentationManagementSystem.Core.csproj.AssemblyReference.cache
+C:\Users\assre\RiderProjects\WorkProjectsDocumenting\SoftwareDocumentationManagementSystem.Core\obj\Debug\net7.0\SoftwareDocumentationManagementSystem.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\assre\RiderProjects\WorkProjectsDocumenting\SoftwareDocumentationManagementSystem.Core\obj\Debug\net7.0\SoftwareDocumentationManagementSystem.Core.AssemblyInfoInputs.cache
+C:\Users\assre\RiderProjects\WorkProjectsDocumenting\SoftwareDocumentationManagementSystem.Core\obj\Debug\net7.0\SoftwareDocumentationManagementSystem.Core.AssemblyInfo.cs
+C:\Users\assre\RiderProjects\WorkProjectsDocumenting\SoftwareDocumentationManagementSystem.Core\obj\Debug\net7.0\SoftwareDocumentationManagementSystem.Core.csproj.CoreCompileInputs.cache
+C:\Users\assre\RiderProjects\WorkProjectsDocumenting\SoftwareDocumentationManagementSystem.Core\obj\Debug\net7.0\SoftwareDocumentationManagementSystem.Core.dll
+C:\Users\assre\RiderProjects\WorkProjectsDocumenting\SoftwareDocumentationManagementSystem.Core\obj\Debug\net7.0\refint\SoftwareDocumentationManagementSystem.Core.dll
+C:\Users\assre\RiderProjects\WorkProjectsDocumenting\SoftwareDocumentationManagementSystem.Core\obj\Debug\net7.0\SoftwareDocumentationManagementSystem.Core.pdb
+C:\Users\assre\RiderProjects\WorkProjectsDocumenting\SoftwareDocumentationManagementSystem.Core\obj\Debug\net7.0\ref\SoftwareDocumentationManagementSystem.Core.dll
