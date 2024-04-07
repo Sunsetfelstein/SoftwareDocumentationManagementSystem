@@ -1070,11 +1070,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\assre\\RiderProjects\\WorkProjectsDocumenting\\SoftwareDocumentationManagementSystem\\SoftwareDocumentationManagementSystem.csproj",
+      "projectUniqueName": "C:\\Users\\assre\\RiderProjects\\SoftwareDocumentationManagementSystem\\SoftwareDocumentationManagementSystem.API\\SoftwareDocumentationManagementSystem.API.csproj",
       "projectName": "SoftwareDocumentationManagementSystem.API",
-      "projectPath": "C:\\Users\\assre\\RiderProjects\\WorkProjectsDocumenting\\SoftwareDocumentationManagementSystem\\SoftwareDocumentationManagementSystem.csproj",
+      "projectPath": "C:\\Users\\assre\\RiderProjects\\SoftwareDocumentationManagementSystem\\SoftwareDocumentationManagementSystem.API\\SoftwareDocumentationManagementSystem.API.csproj",
       "packagesPath": "C:\\Users\\assre\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\assre\\RiderProjects\\WorkProjectsDocumenting\\SoftwareDocumentationManagementSystem\\obj\\",
+      "outputPath": "C:\\Users\\assre\\RiderProjects\\SoftwareDocumentationManagementSystem\\SoftwareDocumentationManagementSystem.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\assre\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -1090,8 +1090,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\assre\\RiderProjects\\WorkProjectsDocumenting\\SoftwareDocumentationManagementSystem.Core\\SoftwareDocumentationManagementSystem.Core.csproj": {
-              "projectPath": "C:\\Users\\assre\\RiderProjects\\WorkProjectsDocumenting\\SoftwareDocumentationManagementSystem.Core\\SoftwareDocumentationManagementSystem.Core.csproj"
+            "C:\\Users\\assre\\RiderProjects\\SoftwareDocumentationManagementSystem\\SoftwareDocumentationManagementSystem.Core\\SoftwareDocumentationManagementSystem.Core.csproj": {
+              "projectPath": "C:\\Users\\assre\\RiderProjects\\SoftwareDocumentationManagementSystem\\SoftwareDocumentationManagementSystem.Core\\SoftwareDocumentationManagementSystem.Core.csproj"
             }
           }
         }

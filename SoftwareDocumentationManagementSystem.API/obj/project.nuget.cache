@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uY4O/iJiL65sRkkMQUqVPN1VWpR5XhEkz/VYn940Vg9jj4WqGEB0rMvxZ9ftatNg7vqJ5xa5oup3aFVWScbeCQ==",
+  "dgSpecHash": "dopmfNhUXzDXNotZNnTszqk7bK0+xWhNunieyH5k38vOZmP/al7iL/MOfuHJQVbSK20J6p72RgVrt8HzcNVnrw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\assre\\RiderProjects\\WorkProjectsDocumenting\\SoftwareDocumentationManagementSystem\\SoftwareDocumentationManagementSystem.csproj",
+  "projectFilePath": "C:\\Users\\assre\\RiderProjects\\SoftwareDocumentationManagementSystem\\SoftwareDocumentationManagementSystem.API\\SoftwareDocumentationManagementSystem.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\assre\\.nuget\\packages\\csharpfunctionalextensions\\2.41.0\\csharpfunctionalextensions.2.41.0.nupkg.sha512",
     "C:\\Users\\assre\\.nuget\\packages\\microsoft.aspnetcore.authentication.negotiate\\7.0.9\\microsoft.aspnetcore.authentication.negotiate.7.0.9.nupkg.sha512",
